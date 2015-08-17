@@ -3,19 +3,19 @@
 // ======================
 
 // Don't autofill URL bar. It's slower due to unpredictability.
-user_pref("browser.urlbar.autoFill", false);
+user_pref('browser.urlbar.autoFill', false);
 
 // Don't trim URLs. It masks the true address.
 user_pref('browser.urlbar.trimURLs', false);
 
 // Open new tabs in background for faster browsing.
-user_pref("browser.search.context.loadInBackground", true);
+user_pref('browser.search.context.loadInBackground', true);
 
 // Disable new tab animation, because animation is annoying.
 user_pref('browser.tabs.animate', false);
 
 // Don't select entire URL. Ctrl-L already does that.
-user_pref("browser.urlbar.clickSelectsAll", false);
+user_pref('browser.urlbar.clickSelectsAll', false);
 
 // ======================
 // Network
@@ -24,7 +24,7 @@ user_pref("browser.urlbar.clickSelectsAll", false);
 // Don't connect to remote links on hover
 // See http://news.slashdot.org/story/15/08/14/2321202/how-to-quash-firefoxs-silent-requests
 // and: http://www.ghacks.net/2015/08/16/block-firefox-from-connecting-to-sites-when-you-hover-over-links/
-user_pref("network.http.speculative-parallel-limit", 0);
+user_pref('network.http.speculative-parallel-limit', 0);
 
 // ======================
 // Privacy
