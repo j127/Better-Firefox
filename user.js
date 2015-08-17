@@ -38,6 +38,7 @@ user_pref('privacy.trackingprotection.enabled', true);
 // ======================
 // Devtools
 // ======================
+
 user_pref('devtools.editor.tabsize', 4);
 user_pref('devtools.theme', dark);
 user_pref('devtools.canvasdebugger.enabled', true);
@@ -52,17 +53,4 @@ user_pref('devtools.shadereditor.enabled', true);
 user_pref('devtools.timeline.enabled', true);
 user_pref('devtools.webaudioeditor.enabled', true);
 user_pref('devtools.webconsole.timestampMessages', true);
-
-// ======================
-// Bloatware
-// ======================
-
-// Disable 'Reader Mode':
-user_pref('reader.parse-on-load.enabled', false);
-user_pref('readinglist.server', '');
-
-// Disable 'Pocket':
-user_pref('browser.pocket.api', '');
-user_pref('browser.pocket.enabled', false);
-user_pref('browser.pocket.site', '');
 
